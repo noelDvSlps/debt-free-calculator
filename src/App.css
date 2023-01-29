@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+.main-wrapper{
+    text-align: center;
+}
+.wrapper-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.table-wrapper{
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: fit-content;
+    max-height: 250px;
+    overflow: hidden;
+    overflow-y: scroll;
+    text-align: right;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.left, .right {
+   
+    border: 1px solid;
+    
+    flex: 1;
+    width: 100%;
+   
+    
+    
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.right {
+    text-align: center;
+    height: auto;
+    padding-bottom: 20px;
+    
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom {
+    padding: 20px;
+    border: 1px solid;
+    width: 100%;
+   
+    margin-bottom: 50px;
 }
+
+.debt-info-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.debt-info{
+    text-align: left;
+    
+}
+
+
+
+
+form{
+    text-align: center;
+    width: 100%
+}
+
+button{
+    margin-top: 20px;
+}
+
+th,td{
+    width: 85px;
+}
+
+th { 
+    text-align: center;
+    position: sticky; 
+    top: 0; 
+    background-color: white;
+}
+
+td{
+    padding-right: 10px;
+}
+

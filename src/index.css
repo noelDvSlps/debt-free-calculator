@@ -11,3 +11,117 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root{
+  --white: #fff;
+  --black: #000;
+  --font-color-base: #666;
+  --font-color-base-2: #757D87;
+  --font-color-link: #57A6FF;
+  --font-color-link-2:rgb(36, 118, 254);
+  --font-color-light: #b0aebe;
+  --font-color-background: #20335B;
+  --size-10: 0.625rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-30: 1.875rem;
+  --size-40: 2.5rem;
+  --size-50: 3.125rem;
+  --size-100: 6.25rem;
+  --size-150: 9.375rem;
+  }
+  html{scroll-behavior: smooth;}
+  body{
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 0.875rem;
+      line-height: 1.6;
+      letter-spacing: 0;
+      color: var(--font-color-base-2);
+      margin: 0;
+      padding: 0;
+  }
+  *,
+  ::after,
+  ::before{
+      box-sizing: border-box;
+  }
+  
+ 
+  
+  h2{
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.2;
+  }
+
+  h3{
+      font-size: 1.25rem;
+      font-weight: 600;
+      line-height: 1.2;
+      color: var(--black);
+      margin-bottom: 0.625rem;
+  }
+  
+
+  table, th, td {
+    border: 1px solid;
+  }
+  
+  .container,
+  .container-fluid {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .container { 
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .btn{
+      display: inline-block;
+      font-weight: 400;
+      color: black;
+      text-align: center;
+      cursor: pointer;
+      user-select: none;
+      background-color: transparent;
+      border: transparent;
+      padding: .375rem .75rem;
+      border-radius: 1.25rem;
+      transition: ease-in-out 0.3s;
+  }
+  
+  .btn-primary{
+      color: var(--white);
+      padding: 0.938rem 1.875rem;
+      background-color: rgb(36, 118, 254);
+      align-self: center;
+      font-size: 12px;
+      font-weight: 500;
+      border-radius: 50px;
+      letter-spacing: 1px;
+      
+  }
+
+  @media (min-width: 768px){
+     .container
+      {max-width: 720px;}
+  }
+  
+  @media (min-width: 992px){
+      
+       .container
+       {max-width: 960px}
+  }
+  
+  @media (min-width: 1200px){
+      .container
+      
+       {max-width: 1140px}
+  }
